@@ -27,7 +27,7 @@ function buildgrid(value){
 
 function stylecolor(container, item){
     item.style.backgroundColor = "rgb("+getRandomInt(256)+","+getRandomInt(256)+","+getRandomInt(256)+")";
-    container.style.opacity -= 0.01; 
+    //container.style.opacity -= 0.01; 
 }
 
 function resetgrid(){
