@@ -35,7 +35,6 @@ function resetgrid(){
     buildgrid(value);
 }
 
-console.log("rgb("+getRandomInt(256)+","+getRandomInt(256)+","+getRandomInt(256)+")");
 buildgrid(16);
 let button = document.querySelector(".reset");
 button.addEventListener("click", resetgrid);

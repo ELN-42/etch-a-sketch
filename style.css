@@ -3,20 +3,23 @@ body {
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
 }
 
 #container {
     display: flex;
-    height: 900px;
-    width: 900px;
+    height: 850px;
+    width: 850px;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    border: 3px black solid;
 }
 
-.item {
-    
+.explain {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 100px;
 }
 
 .reset {
