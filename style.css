@@ -1,14 +1,15 @@
-head {
+body {
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    gap: 50px;
 }
 
 #container {
     display: flex;
-    height: 800px;
-    width: 800px;
+    height: 900px;
+    width: 900px;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
@@ -16,4 +17,14 @@ head {
 
 .item {
     
+}
+
+.reset {
+    align-self: center;
+    font-size: large;
+    font-weight: 600;
+    height: 30px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 10px;
 }
